@@ -24,34 +24,34 @@ async function weather(){
 
     if((data.weather[0].main)==="Mist"){
         
-        document.querySelector('#status').src="../Img/images/mist.png";
+        document.querySelector('#status').src="mist.png";
     }
     else if((data.weather[0].main)==="Clouds"){
         
-        document.querySelector('#status').src="../Img/images/clouds.png";
+        document.querySelector('#status').src="clouds.png";
 
     }
     else if((data.weather[0].main)==="Clear"){
        
         
-        document.querySelector('#status').src="../Img/images/clear.png";
+        document.querySelector('#status').src="clear.png";
        
     }
 else if((data.weather[0].main)==="Rain"){
-    document.querySelector('#status').src="../Img/images/rain.png";
+    document.querySelector('#status').src="rain.png";
 
 }
     else if((data.weather[0].main)==="Snow"){
-        document.querySelector('status').src="../Img/images/snow.png";
+        document.querySelector('status').src="snow.png";
 
     }
     else if((data.weather[0].main)==="Haze"){
-        document.querySelector('#status').src="../Img/images/haze.png";
+        document.querySelector('#status').src="haze.png";
 
 
     }
     else {
-        document.querySelector('#status').src="../Img/images/clear.png";
+        document.querySelector('#status').src="clear.png";
 
     }
 
